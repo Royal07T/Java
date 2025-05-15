@@ -3,7 +3,7 @@ import java.time.YearMonth;
 
 public class MonthLengths {
     public static void main(String[] args) {
-        int year = 2025; // Change this to any year
+        int year = 2027; 
         System.out.println("Length of each month in the year " + year + ":");
         for (Month month : Month.values()) {
             YearMonth ym = YearMonth.of(year, month);
